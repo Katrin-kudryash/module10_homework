@@ -10,7 +10,7 @@
 // и в чат вывести ссылку на https://www.openstreetmap.org/ с вашей гео-локацией. 
 // Сообщение, которое отправит обратно эхо-сервер, не выводить.
 
-const wsUrl = "wss://echo.websocket.org/";
+const wsUrl = "wss://echo-ws-service.herokuapp.com";
 
 function pageLoaded() {
 	const infoOutput = document.querySelector(".info_output");
